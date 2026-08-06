@@ -23,6 +23,6 @@ jobs:
       run: |
         echo "Iniciando login..."
         echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
-        echo "Login exitoso"
+        echo "Login exitoso,"
     #- name: Build the Docker image
       #run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
